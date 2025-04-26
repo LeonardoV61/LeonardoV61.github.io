@@ -1620,6 +1620,9 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   .text-sm-center {
     text-align: center !important;
   }
+  #screenshot {
+    width: 400px !important;
+  }
 }
 @media (min-width: 768px) {
   .float-md-start {
@@ -2116,6 +2119,9 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   .text-md-center {
     text-align: center !important;
   }
+  #screenshot {
+    width: 500px !important;
+  }
 }
 @media (min-width: 992px) {
   .float-lg-start {
@@ -2611,6 +2617,9 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   }
   .text-lg-center {
     text-align: center !important;
+  }
+  #screenshot {
+    width: 600px !important;
   }
 }
 @media (min-width: 1200px) {
@@ -3685,13 +3694,6 @@ p.lead {
   font-weight: 400;
 }
 
-/*.subheading {
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 1.5rem;
-}*/
-
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -3803,7 +3805,7 @@ section.resume-section .resume-section-content {
   margin-left: 2.5rem;
 }
 #screenshot {
-  width: 400px;
+  width: 20em;
   border-color: #AB3232;
   border-style: double;
   cursor: pointer;
